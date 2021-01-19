@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Controls.cpp" />
+    <ClCompile Include="GBuffer.cpp" />
+    <ClCompile Include="GLUTInterface.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="Framebuffer.cpp" />
+    <ClCompile Include="GameModel.cpp" />
+    <ClCompile Include="ShaderLoader.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="TextureLoader.cpp" />
+    <ClCompile Include="Utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Framebuffer.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameModel.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GBuffer.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GLUTInterface.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderLoader.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shaders\advancedCompute.cs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\advancedCompute.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\advancedCompute.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\basic.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\basic.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\basicSort.comp">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\basicUpdate.comp">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\LitTexturedModel.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\LitTexturedModel.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\particles.geom">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\ScreenSpaceTextured.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\ScreenSpaceTextured.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\ScreenSpaceTexturedDepth.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\ScreenSpaceTexturedLit.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\ScreenSpaceTexturedLit.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\ScreenSpaceTexturedSSR.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\ScreenSpaceTexturedSSR.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\shadowmap.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\shadowmap.fs">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{201af127-ca15-44e0-bad6-028299f09e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{da9f965a-61cf-4da4-aeec-20c5ea6034a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

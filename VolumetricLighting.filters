@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{f1ff51be-4895-4b24-810c-d51f57c669e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{88557d18-62f7-45db-89cf-241dbe7ddbe0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvancedComputeParticle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLUTInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framebuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvancedComputeParticle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLUTInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framebuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shaders\advancedCompute.cs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\advancedCompute.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\advancedCompute.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\basic.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\basic.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\basicSort.comp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\basicUpdate.comp">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\particles.geom">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\ScreenSpaceTexturedLit.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\ScreenSpaceTexturedLit.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\ScreenSpaceTexturedSSR.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\ScreenSpaceTexturedSSR.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\shadowmap.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\shadowmap.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\LitTexturedModel.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\LitTexturedModel.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\ScreenSpaceTextured.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\ScreenSpaceTextured.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\ScreenSpaceTexturedDepth.fs">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
